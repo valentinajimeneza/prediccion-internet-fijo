@@ -26,6 +26,15 @@ st.write(
     "a partir de su región, segmento y velocidades. "
     "Modelo entrenado con datos de **Datos Abiertos Colombia**."
 )
+
+st.info(
+    "💡 **¿Para qué sirve?** Permite estimar, de forma rápida, qué tecnología "
+    "predomina bajo ciertas condiciones de conexión. Es útil para **operadores e ISP** "
+    "que planean dónde desplegar cada tecnología, para **analistas y entes reguladores** "
+    "que estudian la brecha digital y la calidad del servicio por región, y para "
+    "**investigadores o estudiantes** que quieren entender qué factores determinan el tipo "
+    "de acceso a internet en Colombia."
+)
 st.divider()
 
 # --- Entradas del usuario ---
